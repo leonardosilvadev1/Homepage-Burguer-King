@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Super Frosting';
+    src: url(Fontes/Super\ Frosting.ttf);
+}
+body{
+    font-family: 'Super Frosting';
+    background-color: #f5ebdd;
+}
+nav{
+    color: rgb(126, 52, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+.img1 .img-fundo{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3270c;
+    border: none;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    font-family: 'Super Frosting';
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+.app{
+    background-color: #d3270c;
+    display: flex;
+    justify-content: center;
+}
+.img-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 230px;
+}
+.lojas{
+    display: flex;
+    justify-content: center;
+}
+.lojas img{
+    margin-right: 20px;
+}
+.texto-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 430px;
+}
+.titulo{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 30, 14);
+    flex-direction: column;
+}
+footer .coluna1 ul{
+    display: flex;
+    list-style: none
+}
+footer .coluna1 ul li{
+    color: white;
+    list-style: none;
+    margin-right: 25px;
+    font-size: 20px;
+}
+footer .coluna1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer .coluna2 ul{
+    display: flex;
+    list-style: none
+}
+footer .coluna2 ul li{
+    color: white;
+    list-style: none;
+    margin-right: 25px;
+    font-size: 15px;
+}
+footer .coluna2 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.linha{
+    background-color: white;
+    color: white;
+    height: 1px;
+    width: 90%;
+}
+.h3{
+    color: white;
+}
+.direitos-autorais{
+    color: white;
+    font-size: 15px;
+}
+.hamburguer1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 139, 33);
+}
