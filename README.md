@@ -1,1 +1,2 @@
 # Copia-do-Site-do-Burguer-King
+Lembrando que esse projeto não se trata de um projeto real, apenas utilizado para meios educacionais e de aprendizado, então novamente lembro que não se trata de uma versão original ou oficial da própria empresa.
